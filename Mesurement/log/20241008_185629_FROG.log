@@ -1,0 +1,76 @@
+[2024/10/08 18:56:29] Program start
+[2024/10/08 18:56:29] Connection check for USB4000 and DS102
+[2024/10/08 18:56:30] Connected to spectrometer USB4000.
+[2024/10/08 18:56:31] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM5 ].
+[2024/10/08 18:56:31] DS102 Initialization ~Stage Position Adjustment~
+[2024/10/08 18:56:33] DS102 initialisation passed.
+[2024/10/08 18:56:34] USB4000 initialization ~Searching for the peak intensity and setting the ORG~
+[2024/10/08 18:56:35] Current Position: 644
+[2024/10/08 18:56:39] Set Integration Time: 5000 ms
+[2024/10/08 18:56:47] Current Position: 794
+[2024/10/08 18:57:20] Current Position: 794
+[2024/10/08 18:57:20] -------------------------------------------
+[2024/10/08 18:57:20] Time axis: 5297.00 fs
+[2024/10/08 18:57:20] Integration time: 5000 ms
+[2024/10/08 18:57:20] Max intensity: 1380.33
+[2024/10/08 18:57:20] -------------------------------------------
+[2024/10/08 18:57:29] Current Position: 644
+[2024/10/08 18:57:37] Current Position: 644
+[2024/10/08 18:57:37] -------------------------------------------
+[2024/10/08 18:57:37] Time axis: 4296.31 fs
+[2024/10/08 18:57:37] Integration time: 5000 ms
+[2024/10/08 18:57:37] Max intensity: 1384.43
+[2024/10/08 18:57:37] -------------------------------------------
+[2024/10/08 18:57:50] Current Position: 794
+[2024/10/08 18:57:53] Set Integration Time: 10000 ms
+[2024/10/08 18:58:05] Current Position: 794
+[2024/10/08 18:58:05] -------------------------------------------
+[2024/10/08 18:58:05] Time axis: 5297.00 fs
+[2024/10/08 18:58:05] Integration time: 10000 ms
+[2024/10/08 18:58:05] Max intensity: 1476.59
+[2024/10/08 18:58:05] -------------------------------------------
+[2024/10/08 18:58:20] Current Position: 644
+[2024/10/08 18:58:35] Current Position: 644
+[2024/10/08 18:58:35] -------------------------------------------
+[2024/10/08 18:58:35] Time axis: 4296.31 fs
+[2024/10/08 18:58:35] Integration time: 10000 ms
+[2024/10/08 18:58:35] Max intensity: 1384.43
+[2024/10/08 18:58:35] -------------------------------------------
+[2024/10/08 18:59:07] Set HOME POSITION: 644
+[2024/10/08 18:59:08] HOME POSITION: 644
+[2024/10/08 18:59:10] Current Position: 644
+[2024/10/08 18:59:10] -----------------------------------------
+[2024/10/08 18:59:10] ORIGINAL POINT: 0
+[2024/10/08 18:59:10] HOME POSITION: 644
+[2024/10/08 18:59:10] -----------------------------------------
+[2024/10/08 18:59:10] SETTING UP FOR FROG MEASUREMENT
+[2024/10/08 18:59:16] Set the measurement range
+[2024/10/08 18:59:16] Step size: 3
+[2024/10/08 18:59:16] Measurement interval: 20.01 fs
+[2024/10/08 18:59:20] Measurement range is '6004.15 fs'
+[2024/10/08 18:59:20] -----------------------------------------------
+[2024/10/08 18:59:20] Start point: 644
+[2024/10/08 18:59:20] End point: 944
+[2024/10/08 18:59:20] -----------------------------------------------
+[2024/10/08 18:59:20] FROG Measurement
+[2024/10/08 18:59:20] Check the Mesurement Setup
+[2024/10/08 18:59:20] -----------------------------------------------
+[2024/10/08 18:59:20] Step size: 3
+[2024/10/08 18:59:20] Measurement interval: 20.01 fs
+[2024/10/08 18:59:20] Measurement range is '6004.15 fs'
+[2024/10/08 18:59:20] Integration time: 10000 ms
+[2024/10/08 18:59:20] Start point: 644
+[2024/10/08 18:59:20] End point: 944
+[2024/10/08 18:59:20] -----------------------------------------------
+[2024/10/08 18:59:26] Measurement started
+[2024/10/08 18:59:26] Data saved as 'c:\Users\daius\OneDrive\cash\デスクトップ\Github\KITAYAMA_FROG\Mesurement\data\20241008_185926_FROG.txt'
+[2024/10/08 18:59:26] Measurement started
+[2024/10/08 18:59:40] Measuring at 0 pulse
+[2024/10/08 18:59:40] Move stage 3 pulse
+[2024/10/08 18:59:41] Current Position: 647
+[2024/10/08 18:59:54] Measuring at 3 pulse
+[2024/10/08 18:59:54] Move stage 3 pulse
+[2024/10/08 18:59:55] Current Position: 650
+[2024/10/08 19:00:08] Measuring at 6 pulse
+[2024/10/08 19:00:08] Move stage 3 pulse
+[2024/10/08 19:00:09] Current Position: 653
