@@ -74,8 +74,8 @@ class App(QMainWindow):
         plt.colorbar(label='Adjusted Intensity')
         plt.xlabel('Time / fs')  # x軸のラベルを変更
         plt.ylabel('Wavelength / nm')
-        plt.ylim(400, 800)
-        plt.title('Intensity after Background Subtraction')
+        plt.ylim(390, 410)
+        plt.title('SHG-FROG')
         plt.show()
 
 def main():

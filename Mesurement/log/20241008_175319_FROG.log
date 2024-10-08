@@ -1,0 +1,196 @@
+[2024/10/08 17:53:19] Program start
+[2024/10/08 17:53:19] Connection check for USB4000 and DS102
+[2024/10/08 17:53:20] Connected to spectrometer USB4000.
+[2024/10/08 17:53:21] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM5 ].
+[2024/10/08 17:53:21] DS102 Initialization ~Stage Position Adjustment~
+[2024/10/08 17:53:24] DS102 initialisation passed.
+[2024/10/08 17:53:25] USB4000 initialization ~Searching for the peak intensity and setting the ORG~
+[2024/10/08 17:53:26] Current Position: 644
+[2024/10/08 17:53:30] Set Integration Time: 5000 ms
+[2024/10/08 17:53:37] Set HOME POSITION: 644
+[2024/10/08 17:53:38] HOME POSITION: 644
+[2024/10/08 17:53:40] Current Position: 644
+[2024/10/08 17:53:40] -----------------------------------------
+[2024/10/08 17:53:40] ORIGINAL POINT: 0
+[2024/10/08 17:53:40] HOME POSITION: 644
+[2024/10/08 17:53:40] -----------------------------------------
+[2024/10/08 17:53:40] SETTING UP FOR FROG MEASUREMENT
+[2024/10/08 17:53:44] Set the measurement range
+[2024/10/08 17:53:44] Step size: 6
+[2024/10/08 17:53:44] Measurement interval: 40.03 fs
+[2024/10/08 17:53:49] Measurement range is '12008.31 fs'
+[2024/10/08 17:53:49] -----------------------------------------------
+[2024/10/08 17:53:49] Start point: 644
+[2024/10/08 17:53:49] End point: 944
+[2024/10/08 17:53:49] -----------------------------------------------
+[2024/10/08 17:53:49] FROG Measurement
+[2024/10/08 17:53:49] Check the Mesurement Setup
+[2024/10/08 17:53:49] -----------------------------------------------
+[2024/10/08 17:53:49] Step size: 6
+[2024/10/08 17:53:49] Measurement interval: 40.03 fs
+[2024/10/08 17:53:49] Measurement range is '12008.31 fs'
+[2024/10/08 17:53:49] Integration time: 5000 ms
+[2024/10/08 17:53:49] Start point: 644
+[2024/10/08 17:53:49] End point: 944
+[2024/10/08 17:53:49] -----------------------------------------------
+[2024/10/08 17:53:51] Measurement started
+[2024/10/08 17:53:51] Data saved as 'c:\Users\daius\OneDrive\cash\デスクトップ\Github\KITAYAMA_FROG\Mesurement\data\20241008_175351_FROG.txt'
+[2024/10/08 17:53:51] Measurement started
+[2024/10/08 17:53:59] Measuring at 0 pulse
+[2024/10/08 17:53:59] Move stage 6 pulse
+[2024/10/08 17:54:00] Current Position: 650
+[2024/10/08 17:54:08] Measuring at 6 pulse
+[2024/10/08 17:54:08] Move stage 6 pulse
+[2024/10/08 17:54:09] Current Position: 656
+[2024/10/08 17:54:17] Measuring at 12 pulse
+[2024/10/08 17:54:17] Move stage 6 pulse
+[2024/10/08 17:54:18] Current Position: 662
+[2024/10/08 17:54:26] Measuring at 18 pulse
+[2024/10/08 17:54:26] Move stage 6 pulse
+[2024/10/08 17:54:27] Current Position: 668
+[2024/10/08 17:54:35] Measuring at 24 pulse
+[2024/10/08 17:54:35] Move stage 6 pulse
+[2024/10/08 17:54:36] Current Position: 674
+[2024/10/08 17:54:45] Measuring at 30 pulse
+[2024/10/08 17:54:45] Move stage 6 pulse
+[2024/10/08 17:54:46] Current Position: 680
+[2024/10/08 17:54:54] Measuring at 36 pulse
+[2024/10/08 17:54:54] Move stage 6 pulse
+[2024/10/08 17:54:55] Current Position: 686
+[2024/10/08 17:55:03] Measuring at 42 pulse
+[2024/10/08 17:55:03] Move stage 6 pulse
+[2024/10/08 17:55:04] Current Position: 692
+[2024/10/08 17:55:12] Measuring at 48 pulse
+[2024/10/08 17:55:12] Move stage 6 pulse
+[2024/10/08 17:55:13] Current Position: 698
+[2024/10/08 17:55:21] Measuring at 54 pulse
+[2024/10/08 17:55:21] Move stage 6 pulse
+[2024/10/08 17:55:22] Current Position: 704
+[2024/10/08 17:55:30] Measuring at 60 pulse
+[2024/10/08 17:55:30] Move stage 6 pulse
+[2024/10/08 17:55:31] Current Position: 710
+[2024/10/08 17:55:40] Measuring at 66 pulse
+[2024/10/08 17:55:40] Move stage 6 pulse
+[2024/10/08 17:55:41] Current Position: 716
+[2024/10/08 17:55:49] Measuring at 72 pulse
+[2024/10/08 17:55:49] Move stage 6 pulse
+[2024/10/08 17:55:50] Current Position: 722
+[2024/10/08 17:55:58] Measuring at 78 pulse
+[2024/10/08 17:55:58] Move stage 6 pulse
+[2024/10/08 17:55:59] Current Position: 728
+[2024/10/08 17:56:07] Measuring at 84 pulse
+[2024/10/08 17:56:07] Move stage 6 pulse
+[2024/10/08 17:56:08] Current Position: 734
+[2024/10/08 17:56:16] Measuring at 90 pulse
+[2024/10/08 17:56:16] Move stage 6 pulse
+[2024/10/08 17:56:17] Current Position: 740
+[2024/10/08 17:56:25] Measuring at 96 pulse
+[2024/10/08 17:56:25] Move stage 6 pulse
+[2024/10/08 17:56:26] Current Position: 746
+[2024/10/08 17:56:35] Measuring at 102 pulse
+[2024/10/08 17:56:35] Move stage 6 pulse
+[2024/10/08 17:56:36] Current Position: 752
+[2024/10/08 17:56:44] Measuring at 108 pulse
+[2024/10/08 17:56:44] Move stage 6 pulse
+[2024/10/08 17:56:45] Current Position: 758
+[2024/10/08 17:56:53] Measuring at 114 pulse
+[2024/10/08 17:56:53] Move stage 6 pulse
+[2024/10/08 17:56:54] Current Position: 764
+[2024/10/08 17:57:02] Measuring at 120 pulse
+[2024/10/08 17:57:02] Move stage 6 pulse
+[2024/10/08 17:57:03] Current Position: 770
+[2024/10/08 17:57:11] Measuring at 126 pulse
+[2024/10/08 17:57:11] Move stage 6 pulse
+[2024/10/08 17:57:12] Current Position: 776
+[2024/10/08 17:57:20] Measuring at 132 pulse
+[2024/10/08 17:57:20] Move stage 6 pulse
+[2024/10/08 17:57:21] Current Position: 782
+[2024/10/08 17:57:30] Measuring at 138 pulse
+[2024/10/08 17:57:30] Move stage 6 pulse
+[2024/10/08 17:57:31] Current Position: 788
+[2024/10/08 17:57:39] Measuring at 144 pulse
+[2024/10/08 17:57:39] Move stage 6 pulse
+[2024/10/08 17:57:40] Current Position: 794
+[2024/10/08 17:57:48] Measuring at 150 pulse
+[2024/10/08 17:57:48] Move stage 6 pulse
+[2024/10/08 17:57:49] Current Position: 800
+[2024/10/08 17:57:57] Measuring at 156 pulse
+[2024/10/08 17:57:57] Move stage 6 pulse
+[2024/10/08 17:57:58] Current Position: 806
+[2024/10/08 17:58:06] Measuring at 162 pulse
+[2024/10/08 17:58:06] Move stage 6 pulse
+[2024/10/08 17:58:07] Current Position: 812
+[2024/10/08 17:58:15] Measuring at 168 pulse
+[2024/10/08 17:58:15] Move stage 6 pulse
+[2024/10/08 17:58:16] Current Position: 818
+[2024/10/08 17:58:24] Measuring at 174 pulse
+[2024/10/08 17:58:24] Move stage 6 pulse
+[2024/10/08 17:58:26] Current Position: 824
+[2024/10/08 17:58:34] Measuring at 180 pulse
+[2024/10/08 17:58:34] Move stage 6 pulse
+[2024/10/08 17:58:35] Current Position: 830
+[2024/10/08 17:58:43] Measuring at 186 pulse
+[2024/10/08 17:58:43] Move stage 6 pulse
+[2024/10/08 17:58:44] Current Position: 836
+[2024/10/08 17:58:52] Measuring at 192 pulse
+[2024/10/08 17:58:52] Move stage 6 pulse
+[2024/10/08 17:58:53] Current Position: 842
+[2024/10/08 17:59:01] Measuring at 198 pulse
+[2024/10/08 17:59:01] Move stage 6 pulse
+[2024/10/08 17:59:02] Current Position: 848
+[2024/10/08 17:59:10] Measuring at 204 pulse
+[2024/10/08 17:59:10] Move stage 6 pulse
+[2024/10/08 17:59:11] Current Position: 854
+[2024/10/08 17:59:19] Measuring at 210 pulse
+[2024/10/08 17:59:19] Move stage 6 pulse
+[2024/10/08 17:59:20] Current Position: 860
+[2024/10/08 17:59:29] Measuring at 216 pulse
+[2024/10/08 17:59:29] Move stage 6 pulse
+[2024/10/08 17:59:30] Current Position: 866
+[2024/10/08 17:59:38] Measuring at 222 pulse
+[2024/10/08 17:59:38] Move stage 6 pulse
+[2024/10/08 17:59:39] Current Position: 872
+[2024/10/08 17:59:47] Measuring at 228 pulse
+[2024/10/08 17:59:47] Move stage 6 pulse
+[2024/10/08 17:59:48] Current Position: 878
+[2024/10/08 17:59:56] Measuring at 234 pulse
+[2024/10/08 17:59:56] Move stage 6 pulse
+[2024/10/08 17:59:57] Current Position: 884
+[2024/10/08 18:00:05] Measuring at 240 pulse
+[2024/10/08 18:00:05] Move stage 6 pulse
+[2024/10/08 18:00:06] Current Position: 890
+[2024/10/08 18:00:14] Measuring at 246 pulse
+[2024/10/08 18:00:14] Move stage 6 pulse
+[2024/10/08 18:00:15] Current Position: 896
+[2024/10/08 18:00:24] Measuring at 252 pulse
+[2024/10/08 18:00:24] Move stage 6 pulse
+[2024/10/08 18:00:25] Current Position: 902
+[2024/10/08 18:00:33] Measuring at 258 pulse
+[2024/10/08 18:00:33] Move stage 6 pulse
+[2024/10/08 18:00:34] Current Position: 908
+[2024/10/08 18:00:42] Measuring at 264 pulse
+[2024/10/08 18:00:42] Move stage 6 pulse
+[2024/10/08 18:00:43] Current Position: 914
+[2024/10/08 18:00:51] Measuring at 270 pulse
+[2024/10/08 18:00:51] Move stage 6 pulse
+[2024/10/08 18:00:52] Current Position: 920
+[2024/10/08 18:01:00] Measuring at 276 pulse
+[2024/10/08 18:01:00] Move stage 6 pulse
+[2024/10/08 18:01:01] Current Position: 926
+[2024/10/08 18:01:09] Measuring at 282 pulse
+[2024/10/08 18:01:09] Move stage 6 pulse
+[2024/10/08 18:01:10] Current Position: 932
+[2024/10/08 18:01:18] Measuring at 288 pulse
+[2024/10/08 18:01:18] Move stage 6 pulse
+[2024/10/08 18:01:19] Current Position: 938
+[2024/10/08 18:01:28] Measuring at 294 pulse
+[2024/10/08 18:01:28] Move stage 6 pulse
+[2024/10/08 18:01:29] Current Position: 944
+[2024/10/08 18:01:29] -----------------------------------------------
+[2024/10/08 18:01:29] Measurement completed !!.
+[2024/10/08 18:01:29] -----------------------------------------------
+[2024/10/08 18:01:29] Elapsed time: 00:07:38
+[2024/10/08 18:01:29] Data saved as 'c:\Users\daius\OneDrive\cash\デスクトップ\Github\KITAYAMA_FROG\Mesurement\data\20241008_175351_FROG.txt'
+[2024/10/08 18:01:29] Move to the HOME POSITION
+[2024/10/08 18:01:32] Current Position: 644
+[2024/10/08 18:01:33] Program exit
