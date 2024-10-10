@@ -1,0 +1,16 @@
+[2024/10/10 13:38:23] Program start
+[2024/10/10 13:38:23] Connection check for USB4000 and DS102
+[2024/10/10 13:38:25] Connected to spectrometer USB4000.
+[2024/10/10 13:38:26] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM4 ].
+[2024/10/10 13:38:26] DS102 Initialization ~Stage Position Adjustment~
+[2024/10/10 13:38:36] DS102 initialisation passed.
+[2024/10/10 13:38:37] USB4000 initialization ~Searching for the peak intensity and setting the ORG~
+[2024/10/10 13:38:38] Current Position: 0
+[2024/10/10 13:38:42] Set Integration Time: 5000 ms
+[2024/10/10 13:38:52] Current Position: 90
+[2024/10/10 13:40:30] Current Position: 90
+[2024/10/10 13:40:30] -------------------------------------------
+[2024/10/10 13:40:30] Time axis: 600.42 fs
+[2024/10/10 13:40:30] Integration time: 5000 ms
+[2024/10/10 13:40:30] Max intensity: 1359.85
+[2024/10/10 13:40:30] -------------------------------------------

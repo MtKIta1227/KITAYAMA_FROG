@@ -311,7 +311,7 @@ def main():
         spectrum = spectrometer.spectrum()
         spectrum_max = spectrum[1]
 
-        max_intensity = max(spectrum_max[1000:])
+        max_intensity = max(spectrum_max[1000:1200])  # 390nm以降の範囲の最大強度を取得
 
         # 現在の座標をCPとする
         ser.write("AXIs1:POS?\r".encode('utf-8'))

@@ -1,0 +1,35 @@
+[2024/10/10 14:21:53] Program start
+[2024/10/10 14:21:53] Connection check for USB4000 and DS102
+[2024/10/10 14:21:55] Connected to spectrometer USB4000.
+[2024/10/10 14:21:56] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM4 ].
+[2024/10/10 14:21:56] DS102 Initialization ~Stage Position Adjustment~
+[2024/10/10 14:21:58] DS102 initialisation passed.
+[2024/10/10 14:21:59] USB4000 initialization ~Searching for the peak intensity and setting the ORG~
+[2024/10/10 14:22:00] Current Position: 0
+[2024/10/10 14:22:05] Set Integration Time: 5000 ms
+[2024/10/10 14:22:08] Set HOME POSITION: 0
+[2024/10/10 14:22:09] HOME POSITION: 0
+[2024/10/10 14:22:11] Current Position: 0
+[2024/10/10 14:22:11] -----------------------------------------
+[2024/10/10 14:22:11] ORIGINAL POINT: 0
+[2024/10/10 14:22:11] HOME POSITION: 0
+[2024/10/10 14:22:11] -----------------------------------------
+[2024/10/10 14:22:11] SETTING UP FOR FROG MEASUREMENT
+[2024/10/10 14:22:28] Set the measurement range
+[2024/10/10 14:22:28] Step size: 3
+[2024/10/10 14:22:28] Measurement interval: 20.01 fs
+[2024/10/10 14:22:54] Measurement range is '3602.49 fs'
+[2024/10/10 14:22:54] -----------------------------------------------
+[2024/10/10 14:22:54] Start point: 0
+[2024/10/10 14:22:54] End point: 180
+[2024/10/10 14:22:54] -----------------------------------------------
+[2024/10/10 14:22:54] FROG Measurement
+[2024/10/10 14:22:54] Check the Mesurement Setup
+[2024/10/10 14:22:54] -----------------------------------------------
+[2024/10/10 14:22:54] Step size: 3
+[2024/10/10 14:22:54] Measurement interval: 20.01 fs
+[2024/10/10 14:22:54] Measurement range is '3602.49 fs'
+[2024/10/10 14:22:54] Integration time: 5000 ms
+[2024/10/10 14:22:54] Start point: 0
+[2024/10/10 14:22:54] End point: 180
+[2024/10/10 14:22:54] -----------------------------------------------
