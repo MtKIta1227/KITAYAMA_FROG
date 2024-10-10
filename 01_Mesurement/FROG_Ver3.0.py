@@ -239,14 +239,14 @@ def main():
 # time.sleep(0.1)
     # ORG設定
     print("\n########################################################")
-    print("USB4000 initialization ~Searching for the peak intensity and setting the ORG~")
+    print("Set Integration time")
     print("########################################################")
-    log("USB4000 initialization ~Searching for the peak intensity and setting the ORG~")
+    log("Set Integration time")
     check_current_position(ser)
     print(">> Move the stage to any position and measure with USB4000.")
 
     while True:
-        input_time = input(">> Set the [Integration time (/ms)]: ")
+        input_time = input(">> Integration time (/ms): ")
         try:
             integration_time_ms = int(input_time)
             break
@@ -257,7 +257,7 @@ def main():
     log(f"Set Integration Time: {integration_time_ms} ms")
 
     while True:
-        X = input(">> Input the [STEP SIZE] (type 'ok' to finish, 'ORG' to set the ORIGINAL POINT): ")
+        X = input(">> STEP SIZE (/pulse) [type 'ok' to finish, 'ORG' to set the ORIGINAL POINT]: ")
         if X.lower() == "ok":
             print("Current position is set to the HOME POINT.")
             #現在の座標を確認し、ホームポジションに設定
@@ -311,7 +311,7 @@ def main():
         spectrum = spectrometer.spectrum()
         spectrum_max = spectrum[1]
 
-        max_intensity = max(spectrum_max[1000:1200])  # 390nm以降の範囲の最大強度を取得
+        max_intensity = max(spectrum_max[1000:1200])  # 390nm-500nmの範囲の最大強度を取得
 
         # 現在の座標をCPとする
         ser.write("AXIs1:POS?\r".encode('utf-8'))
@@ -353,10 +353,10 @@ def main():
     print("###############################################")
     log("SETTING UP FOR FROG MEASUREMENT")
     ##ステップサイズの設定
-    default_step_size = 3  # デフォルトのステップサイズ
-    print(">> Set the step size (default is 3 pulse)")
+    default_step_size = 1  # デフォルトのステップサイズ
+    print(">> Set the STEP SIZE")
     
-    step_size_input = input(f"Step size (or press Enter for default 20 fs[3 pulse]): ")
+    step_size_input = input(f"STEP SIZE (default 1 pulse [6.67 fs]): ")
     
     if step_size_input.strip() == "":
         step_size = default_step_size
@@ -370,10 +370,10 @@ def main():
     print("-----------------------------------------------")
 
     while True:
-        change = input("Do you want to change the step size? (yes/no): ").strip().lower()
-        if change == 'yes':
+        change = input("Do you want to change the step size? (y/n): ").strip().lower()
+        if change == 'y':
             log("Change the step size")
-            step_size_input = input(f"New step size (or press Enter for default 6.67 fs): ")
+            step_size_input = input(f"New step size (default 1 pulse [6.67 fs]): ")
             if step_size_input.strip() == "":
                 step_size = default_step_size
             else:
@@ -381,8 +381,8 @@ def main():
                 log(f"Set step size: {step_size}")
 
             dt = calculate_dt(step_size)
-            print(f"Measurement interval is now '{dt:.2f} fs'")
-        elif change == 'no':
+            print(f"Measurement interval is '{dt:.2f} fs'")
+        elif change == 'n':
             break
         else:
             print("Invalid input. Please enter 'yes' or 'no'.")
@@ -394,7 +394,7 @@ def main():
     log(f"Measurement interval: {dt:.2f} fs")
     
     while True:
-        range_input = input("Input measurement range [/pulse] (or press Enter for default 500 fs 75 pulse): ")
+        range_input = input("Input measurement range [/pulse] (default 75 pulse [500 fs]): ")
         if range_input.strip() == "":
             range_input = 75  # デフォルトの測定範囲 500fs 
             break
@@ -430,6 +430,11 @@ def main():
             print("Invalid input. Please enter 'yes' or 'no'.")
     log(f"Measurement range is '{range_input * dt:.2f} fs'")    
     end_point = range_input + int(home_position)
+    #測定時間の概算
+    estimated_time = range_input / step_size * ((integration_time_ms / 1000) + 3)#3秒はステージの移動時間
+    #分、秒に変換
+    estimated_time = divmod(estimated_time, 60)
+    estimated_time = f"{int(estimated_time[0]):02d}:{int(estimated_time[1]):02d}"
 
     ##測定範囲の確認
     print("-----------------------------------------------")
@@ -456,6 +461,7 @@ def main():
     print(f"Integration time: {integration_time_ms} ms")
     print(f"Start point: {home_position}")
     print(f"End point: {end_point}")
+    print(f"Estimated time: {estimated_time}")
     print("-----------------------------------------------")
     log("Check the Mesurement Setup")
     log("-----------------------------------------------")
@@ -471,13 +477,17 @@ def main():
     while True:
         user_input = input("PRESS ENTER to start the measurement (or 'exit' to quit): ")
         if user_input.lower() == 'exit':
+            log("Program exit")
+            ser.close()
+            spectrometer.close()
             return
+
         elif user_input == "":
             log("Measurement started")
             break
         else:
             print("Invalid input. Please press ENTER to start the measurement.")
-    
+
     #測定開始
     # 実行しているファイルと同じ階層のdataというフォルダに保存。フォルダがなければ作成
     data_dir = os.path.join(current_dir, "data")
@@ -504,6 +514,13 @@ def main():
         for i in tqdm(range(int(loop_num)), bar_format=bar_format, ncols=75):
             spectrometer.integration_time_micros(int(integration_time_ms))
             time.sleep(int(integration_time_ms)/1000 + 1)
+            #残り時間の計算
+            elapsed_time = time.time() - start
+            remaining_time = (elapsed_time / (i + 1)) * (loop_num - i - 1)
+            remaining_time = divmod(remaining_time, 60)
+            remaining_time = f"{int(remaining_time[0]):02d}:{int(remaining_time[1]):02d}"
+            #残り時間の表示
+            print(f"Remaining time: {remaining_time}")
 
             y = spectrometer.intensities()[1002:]  # 390nm以降の範囲のintensityを取得
 

@@ -31,8 +31,8 @@ class App(QMainWindow):
         self.title = 'PyQt5 - File Dialog'
         self.left = 100
         self.top = 100
-        self.width = 800
-        self.height = 600
+        self.width = 300
+        self.height = 200
         self.initUI()
 
     def initUI(self):

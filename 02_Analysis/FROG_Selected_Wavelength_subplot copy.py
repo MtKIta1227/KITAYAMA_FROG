@@ -25,7 +25,7 @@ class App(QMainWindow):
         self.title = 'PyQt5 - Time-Intensity Plot'
         self.left = 100
         self.top = 100
-        self.width = 800
+        self.width = 400
         self.height = 600
         self.wavelengths = []
         self.initUI()
