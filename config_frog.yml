@@ -1,0 +1,12 @@
+log_dir: logs
+log_level: INFO
+output_dir: data
+stage:
+  port: COM3
+  baudrate: 9600
+spectrometer:
+  integration_time_us: 100000
+scan:
+  start_step: 0
+  end_step: 100
+  step_size: 1

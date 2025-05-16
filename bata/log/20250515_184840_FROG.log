@@ -1,0 +1,241 @@
+[2025/05/15 18:48:40] Program start
+[2025/05/15 18:48:40] Connected to spectrometer USB4000.
+[2025/05/15 18:48:40] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM3 ].
+[2025/05/15 18:48:40] DS102 Initialization ~Stage Position Adjustment~
+[2025/05/15 18:48:51] Current Position: 20875
+[2025/05/15 18:48:58] Current Position: -29
+[2025/05/15 18:49:04] Set Integration Time: 1000 ms
+[2025/05/15 18:49:19] Current Position: -29
+[2025/05/15 18:49:19] Set HOME POSITION: -29
+[2025/05/15 18:49:21] Measurement started
+[2025/05/15 18:49:25] Measuring at 0 pulse
+[2025/05/15 18:49:26] Move stage 1 pulse
+[2025/05/15 18:49:27] Current Position: -28
+[2025/05/15 18:49:31] Measuring at 1 pulse
+[2025/05/15 18:49:31] Move stage 1 pulse
+[2025/05/15 18:49:33] Current Position: -27
+[2025/05/15 18:49:38] Measuring at 2 pulse
+[2025/05/15 18:49:38] Move stage 1 pulse
+[2025/05/15 18:49:39] Current Position: -26
+[2025/05/15 18:49:44] Measuring at 3 pulse
+[2025/05/15 18:49:44] Move stage 1 pulse
+[2025/05/15 18:49:45] Current Position: -25
+[2025/05/15 18:49:49] Measuring at 4 pulse
+[2025/05/15 18:49:50] Move stage 1 pulse
+[2025/05/15 18:49:51] Current Position: -24
+[2025/05/15 18:49:55] Measuring at 5 pulse
+[2025/05/15 18:49:56] Move stage 1 pulse
+[2025/05/15 18:49:57] Current Position: -23
+[2025/05/15 18:50:01] Measuring at 6 pulse
+[2025/05/15 18:50:01] Move stage 1 pulse
+[2025/05/15 18:50:03] Current Position: -22
+[2025/05/15 18:50:08] Measuring at 7 pulse
+[2025/05/15 18:50:08] Move stage 1 pulse
+[2025/05/15 18:50:09] Current Position: -21
+[2025/05/15 18:50:14] Measuring at 8 pulse
+[2025/05/15 18:50:14] Move stage 1 pulse
+[2025/05/15 18:50:15] Current Position: -20
+[2025/05/15 18:50:19] Measuring at 9 pulse
+[2025/05/15 18:50:20] Move stage 1 pulse
+[2025/05/15 18:50:21] Current Position: -19
+[2025/05/15 18:50:26] Measuring at 10 pulse
+[2025/05/15 18:50:26] Move stage 1 pulse
+[2025/05/15 18:50:27] Current Position: -18
+[2025/05/15 18:50:31] Measuring at 11 pulse
+[2025/05/15 18:50:32] Move stage 1 pulse
+[2025/05/15 18:50:33] Current Position: -17
+[2025/05/15 18:50:37] Measuring at 12 pulse
+[2025/05/15 18:50:37] Move stage 1 pulse
+[2025/05/15 18:50:39] Current Position: -16
+[2025/05/15 18:50:43] Measuring at 13 pulse
+[2025/05/15 18:50:43] Move stage 1 pulse
+[2025/05/15 18:50:45] Current Position: -15
+[2025/05/15 18:50:49] Measuring at 14 pulse
+[2025/05/15 18:50:50] Move stage 1 pulse
+[2025/05/15 18:50:51] Current Position: -14
+[2025/05/15 18:50:55] Measuring at 15 pulse
+[2025/05/15 18:50:55] Move stage 1 pulse
+[2025/05/15 18:50:57] Current Position: -13
+[2025/05/15 18:51:01] Measuring at 16 pulse
+[2025/05/15 18:51:02] Move stage 1 pulse
+[2025/05/15 18:51:03] Current Position: -12
+[2025/05/15 18:51:07] Measuring at 17 pulse
+[2025/05/15 18:51:07] Move stage 1 pulse
+[2025/05/15 18:51:09] Current Position: -11
+[2025/05/15 18:51:14] Measuring at 18 pulse
+[2025/05/15 18:51:14] Move stage 1 pulse
+[2025/05/15 18:51:15] Current Position: -10
+[2025/05/15 18:51:19] Measuring at 19 pulse
+[2025/05/15 18:51:19] Move stage 1 pulse
+[2025/05/15 18:51:21] Current Position: -9
+[2025/05/15 18:51:25] Measuring at 20 pulse
+[2025/05/15 18:51:26] Move stage 1 pulse
+[2025/05/15 18:51:27] Current Position: -8
+[2025/05/15 18:51:31] Measuring at 21 pulse
+[2025/05/15 18:51:31] Move stage 1 pulse
+[2025/05/15 18:51:33] Current Position: -7
+[2025/05/15 18:51:37] Measuring at 22 pulse
+[2025/05/15 18:51:38] Move stage 1 pulse
+[2025/05/15 18:51:39] Current Position: -6
+[2025/05/15 18:51:43] Measuring at 23 pulse
+[2025/05/15 18:51:43] Move stage 1 pulse
+[2025/05/15 18:51:45] Current Position: -5
+[2025/05/15 18:51:49] Measuring at 24 pulse
+[2025/05/15 18:51:49] Move stage 1 pulse
+[2025/05/15 18:51:51] Current Position: -4
+[2025/05/15 18:51:55] Measuring at 25 pulse
+[2025/05/15 18:51:56] Move stage 1 pulse
+[2025/05/15 18:51:57] Current Position: -3
+[2025/05/15 18:52:01] Measuring at 26 pulse
+[2025/05/15 18:52:01] Move stage 1 pulse
+[2025/05/15 18:52:03] Current Position: -2
+[2025/05/15 18:52:07] Measuring at 27 pulse
+[2025/05/15 18:52:07] Move stage 1 pulse
+[2025/05/15 18:52:09] Current Position: -1
+[2025/05/15 18:52:13] Measuring at 28 pulse
+[2025/05/15 18:52:13] Move stage 1 pulse
+[2025/05/15 18:52:15] Current Position: 0
+[2025/05/15 18:52:19] Measuring at 29 pulse
+[2025/05/15 18:52:19] Move stage 1 pulse
+[2025/05/15 18:52:21] Current Position: 1
+[2025/05/15 18:52:25] Measuring at 30 pulse
+[2025/05/15 18:52:26] Move stage 1 pulse
+[2025/05/15 18:52:27] Current Position: 2
+[2025/05/15 18:52:31] Measuring at 31 pulse
+[2025/05/15 18:52:31] Move stage 1 pulse
+[2025/05/15 18:52:33] Current Position: 3
+[2025/05/15 18:52:37] Measuring at 32 pulse
+[2025/05/15 18:52:37] Move stage 1 pulse
+[2025/05/15 18:52:39] Current Position: 4
+[2025/05/15 18:52:43] Measuring at 33 pulse
+[2025/05/15 18:52:44] Move stage 1 pulse
+[2025/05/15 18:52:45] Current Position: 5
+[2025/05/15 18:52:49] Measuring at 34 pulse
+[2025/05/15 18:52:49] Move stage 1 pulse
+[2025/05/15 18:52:51] Current Position: 6
+[2025/05/15 18:52:55] Measuring at 35 pulse
+[2025/05/15 18:52:55] Move stage 1 pulse
+[2025/05/15 18:52:57] Current Position: 7
+[2025/05/15 18:53:01] Measuring at 36 pulse
+[2025/05/15 18:53:01] Move stage 1 pulse
+[2025/05/15 18:53:03] Current Position: 8
+[2025/05/15 18:53:08] Measuring at 37 pulse
+[2025/05/15 18:53:08] Move stage 1 pulse
+[2025/05/15 18:53:09] Current Position: 9
+[2025/05/15 18:53:13] Measuring at 38 pulse
+[2025/05/15 18:53:13] Move stage 1 pulse
+[2025/05/15 18:53:15] Current Position: 10
+[2025/05/15 18:53:19] Measuring at 39 pulse
+[2025/05/15 18:53:19] Move stage 1 pulse
+[2025/05/15 18:53:21] Current Position: 11
+[2025/05/15 18:53:25] Measuring at 40 pulse
+[2025/05/15 18:53:26] Move stage 1 pulse
+[2025/05/15 18:53:27] Current Position: 12
+[2025/05/15 18:53:31] Measuring at 41 pulse
+[2025/05/15 18:53:31] Move stage 1 pulse
+[2025/05/15 18:53:33] Current Position: 13
+[2025/05/15 18:53:37] Measuring at 42 pulse
+[2025/05/15 18:53:37] Move stage 1 pulse
+[2025/05/15 18:53:39] Current Position: 14
+[2025/05/15 18:53:43] Measuring at 43 pulse
+[2025/05/15 18:53:43] Move stage 1 pulse
+[2025/05/15 18:53:45] Current Position: 15
+[2025/05/15 18:53:49] Measuring at 44 pulse
+[2025/05/15 18:53:49] Move stage 1 pulse
+[2025/05/15 18:53:51] Current Position: 16
+[2025/05/15 18:53:55] Measuring at 45 pulse
+[2025/05/15 18:53:55] Move stage 1 pulse
+[2025/05/15 18:53:57] Current Position: 17
+[2025/05/15 18:54:01] Measuring at 46 pulse
+[2025/05/15 18:54:01] Move stage 1 pulse
+[2025/05/15 18:54:03] Current Position: 18
+[2025/05/15 18:54:07] Measuring at 47 pulse
+[2025/05/15 18:54:07] Move stage 1 pulse
+[2025/05/15 18:54:09] Current Position: 19
+[2025/05/15 18:54:13] Measuring at 48 pulse
+[2025/05/15 18:54:13] Move stage 1 pulse
+[2025/05/15 18:54:15] Current Position: 20
+[2025/05/15 18:54:19] Measuring at 49 pulse
+[2025/05/15 18:54:19] Move stage 1 pulse
+[2025/05/15 18:54:21] Current Position: 21
+[2025/05/15 18:54:25] Measuring at 50 pulse
+[2025/05/15 18:54:25] Move stage 1 pulse
+[2025/05/15 18:54:27] Current Position: 22
+[2025/05/15 18:54:31] Measuring at 51 pulse
+[2025/05/15 18:54:32] Move stage 1 pulse
+[2025/05/15 18:54:33] Current Position: 23
+[2025/05/15 18:54:37] Measuring at 52 pulse
+[2025/05/15 18:54:37] Move stage 1 pulse
+[2025/05/15 18:54:39] Current Position: 24
+[2025/05/15 18:54:43] Measuring at 53 pulse
+[2025/05/15 18:54:43] Move stage 1 pulse
+[2025/05/15 18:54:45] Current Position: 25
+[2025/05/15 18:54:49] Measuring at 54 pulse
+[2025/05/15 18:54:49] Move stage 1 pulse
+[2025/05/15 18:54:51] Current Position: 26
+[2025/05/15 18:54:55] Measuring at 55 pulse
+[2025/05/15 18:54:55] Move stage 1 pulse
+[2025/05/15 18:54:57] Current Position: 27
+[2025/05/15 18:55:02] Measuring at 56 pulse
+[2025/05/15 18:55:02] Move stage 1 pulse
+[2025/05/15 18:55:03] Current Position: 28
+[2025/05/15 18:55:07] Measuring at 57 pulse
+[2025/05/15 18:55:07] Move stage 1 pulse
+[2025/05/15 18:55:09] Current Position: 29
+[2025/05/15 18:55:13] Measuring at 58 pulse
+[2025/05/15 18:55:13] Move stage 1 pulse
+[2025/05/15 18:55:15] Current Position: 30
+[2025/05/15 18:55:19] Measuring at 59 pulse
+[2025/05/15 18:55:19] Move stage 1 pulse
+[2025/05/15 18:55:21] Current Position: 31
+[2025/05/15 18:55:25] Measuring at 60 pulse
+[2025/05/15 18:55:25] Move stage 1 pulse
+[2025/05/15 18:55:27] Current Position: 32
+[2025/05/15 18:55:31] Measuring at 61 pulse
+[2025/05/15 18:55:31] Move stage 1 pulse
+[2025/05/15 18:55:33] Current Position: 33
+[2025/05/15 18:55:37] Measuring at 62 pulse
+[2025/05/15 18:55:37] Move stage 1 pulse
+[2025/05/15 18:55:38] Current Position: 34
+[2025/05/15 18:55:43] Measuring at 63 pulse
+[2025/05/15 18:55:43] Move stage 1 pulse
+[2025/05/15 18:55:45] Current Position: 35
+[2025/05/15 18:55:49] Measuring at 64 pulse
+[2025/05/15 18:55:49] Move stage 1 pulse
+[2025/05/15 18:55:50] Current Position: 36
+[2025/05/15 18:55:55] Measuring at 65 pulse
+[2025/05/15 18:55:55] Move stage 1 pulse
+[2025/05/15 18:55:57] Current Position: 37
+[2025/05/15 18:56:01] Measuring at 66 pulse
+[2025/05/15 18:56:01] Move stage 1 pulse
+[2025/05/15 18:56:03] Current Position: 38
+[2025/05/15 18:56:07] Measuring at 67 pulse
+[2025/05/15 18:56:07] Move stage 1 pulse
+[2025/05/15 18:56:09] Current Position: 39
+[2025/05/15 18:56:13] Measuring at 68 pulse
+[2025/05/15 18:56:13] Move stage 1 pulse
+[2025/05/15 18:56:15] Current Position: 40
+[2025/05/15 18:56:19] Measuring at 69 pulse
+[2025/05/15 18:56:19] Move stage 1 pulse
+[2025/05/15 18:56:21] Current Position: 41
+[2025/05/15 18:56:25] Measuring at 70 pulse
+[2025/05/15 18:56:25] Move stage 1 pulse
+[2025/05/15 18:56:27] Current Position: 42
+[2025/05/15 18:56:31] Measuring at 71 pulse
+[2025/05/15 18:56:31] Move stage 1 pulse
+[2025/05/15 18:56:32] Current Position: 43
+[2025/05/15 18:56:37] Measuring at 72 pulse
+[2025/05/15 18:56:37] Move stage 1 pulse
+[2025/05/15 18:56:38] Current Position: 44
+[2025/05/15 18:56:43] Measuring at 73 pulse
+[2025/05/15 18:56:43] Move stage 1 pulse
+[2025/05/15 18:56:44] Current Position: 45
+[2025/05/15 18:56:49] Measuring at 74 pulse
+[2025/05/15 18:56:49] Move stage 1 pulse
+[2025/05/15 18:56:51] Current Position: 46
+[2025/05/15 18:56:51] Measurement completed !!.
+[2025/05/15 18:56:51] Elapsed time: 00:07:29
+[2025/05/15 18:56:51] Data saved as 'c:\Users\KITAYAMA\KITAYAMA_FROG\bata\data\20250515_184921_FROG.txt'
+[2025/05/15 18:56:51] Move to the HOME POSITION
+[2025/05/15 18:56:53] Current Position: 46
+[2025/05/15 18:56:53] Program exit

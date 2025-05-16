@@ -1,0 +1,64 @@
+[2025/05/15 19:28:14] Program start
+[2025/05/15 19:28:14] Connection check for USB4000 and DS102
+[2025/05/15 19:28:15] Connected to spectrometer USB4000.
+[2025/05/15 19:28:16] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM3 ].
+[2025/05/15 19:28:16] DS102 Initialization ~Stage Position Adjustment~
+[2025/05/15 19:28:19] DS102 initialisation started.
+[2025/05/15 19:28:20] DriverDivision (Full[0], HALF[1]): 0
+[2025/05/15 19:28:22] UNIT(PULSE[0], um[1]): 0
+[2025/05/15 19:28:23] HomePosition: -29
+[2025/05/15 19:28:24] Resolution/pulse: 1
+[2025/05/15 19:28:25] Originating type: 3
+[2025/05/15 19:28:26] Speed table type: 0
+[2025/05/15 19:28:27] CWSoftLimitEnable (Disable[0], Enable[1]): 0
+[2025/05/15 19:28:28] CCWSoftLimitEnable (Disable[0], Enable[1]): 0
+[2025/05/15 19:28:28] Initializing Stage Position
+[2025/05/15 19:28:29] Current Position: 46
+[2025/05/15 19:28:29] Move stage to [ full front ]
+[2025/05/15 19:28:36] Current Position: 20874
+[2025/05/15 19:28:36] Move stage to [ full back ]
+[2025/05/15 19:28:43] Current Position: -27
+[2025/05/15 19:28:43] position adjustment
+[2025/05/15 19:28:47] Current Position: 73
+[2025/05/15 19:28:50] Current Position: 9
+[2025/05/15 19:28:53] Current Position: 109
+[2025/05/15 19:28:56] Current Position: 9
+[2025/05/15 19:28:59] Current Position: 109
+[2025/05/15 19:29:02] Current Position: 9
+[2025/05/15 19:29:03] Set Integration time
+[2025/05/15 19:29:04] Current Position: 9
+[2025/05/15 19:31:08] Set Integration Time: 50000 ms
+[2025/05/15 19:31:17] Set HOME POSITION: 9
+[2025/05/15 19:31:18] HOME POSITION: 9
+[2025/05/15 19:31:20] Current Position: 9
+[2025/05/15 19:31:20] -----------------------------------------
+[2025/05/15 19:31:20] ORIGINAL POINT: 0
+[2025/05/15 19:31:20] HOME POSITION: 9
+[2025/05/15 19:31:20] -----------------------------------------
+[2025/05/15 19:31:20] SETTING UP FOR FROG MEASUREMENT
+[2025/05/15 19:31:28] Change the step size
+[2025/05/15 19:31:40] Set step size: 15
+[2025/05/15 19:31:42] Set the measurement range
+[2025/05/15 19:31:42] Step size: 15
+[2025/05/15 19:31:42] Measurement interval: 100.07 fs
+[2025/05/15 19:31:53] Measurement range is '150103.84 fs'
+[2025/05/15 19:31:53] -----------------------------------------------
+[2025/05/15 19:31:53] Start point: 9
+[2025/05/15 19:31:53] End point: 1509
+[2025/05/15 19:31:53] -----------------------------------------------
+[2025/05/15 19:31:53] FROG Measurement
+[2025/05/15 19:31:53] Check the Mesurement Setup
+[2025/05/15 19:31:53] -----------------------------------------------
+[2025/05/15 19:31:53] Step size: 15
+[2025/05/15 19:31:53] Measurement interval: 100.07 fs
+[2025/05/15 19:31:53] Measurement range is '150103.84 fs'
+[2025/05/15 19:31:53] Integration time: 50000 ms
+[2025/05/15 19:31:53] Start point: 9
+[2025/05/15 19:31:53] End point: 1509
+[2025/05/15 19:31:53] -----------------------------------------------
+[2025/05/15 19:31:56] Measurement started
+[2025/05/15 19:31:56] Data saved as 'c:\Users\KITAYAMA\KITAYAMA_FROG\01_Mesurement\data\20250515_193156_FROG.txt'
+[2025/05/15 19:31:56] Measurement started
+[2025/05/15 19:32:49] Measuring at 0 pulse
+[2025/05/15 19:32:49] Move stage 15 pulse
+[2025/05/15 19:32:50] Current Position: 24

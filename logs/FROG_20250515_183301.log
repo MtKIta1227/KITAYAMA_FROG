@@ -1,0 +1,10 @@
+18:33:01  [INFO]  === FROG Ver 3.1 – refactored ===
+18:33:01  [ERROR]  Fatal error: 'dict' object has no attribute 'port'
+Traceback (most recent call last):
+  File "c:\Users\KITAYAMA\KITAYAMA_FROG\bata\FROG_Ver3.1_refactored.py", line 223, in main
+    frog_scan(cfg, args)
+  File "c:\Users\KITAYAMA\KITAYAMA_FROG\bata\FROG_Ver3.1_refactored.py", line 165, in frog_scan
+    stage = StageController(cfg.stage.port, cfg.stage.baudrate, logger)
+                            ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'port'
+18:33:01  [INFO]  Bye.

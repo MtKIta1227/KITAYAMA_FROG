@@ -1,0 +1,67 @@
+[2025/05/15 17:09:18] Program start
+[2025/05/15 17:09:18] Connection check for USB4000 and DS102
+[2025/05/15 17:09:19] Connected to spectrometer USB4000.
+[2025/05/15 17:09:20] Connected to SURUGA SEIKI DS102 USB Serial Port by [ COM3 ].
+[2025/05/15 17:09:20] DS102 Initialization ~Stage Position Adjustment~
+[2025/05/15 17:09:27] DS102 initialisation started.
+[2025/05/15 17:09:28] DriverDivision (Full[0], HALF[1]): 0
+[2025/05/15 17:09:29] UNIT(PULSE[0], um[1]): 0
+[2025/05/15 17:09:30] HomePosition: 0
+[2025/05/15 17:09:31] Resolution/pulse: 1
+[2025/05/15 17:09:32] Originating type: 3
+[2025/05/15 17:09:33] Speed table type: 0
+[2025/05/15 17:09:34] CWSoftLimitEnable (Disable[0], Enable[1]): 0
+[2025/05/15 17:09:35] CCWSoftLimitEnable (Disable[0], Enable[1]): 0
+[2025/05/15 17:09:35] Initializing Stage Position
+[2025/05/15 17:09:36] Current Position: 0
+[2025/05/15 17:09:36] Move stage to [ full front ]
+[2025/05/15 17:09:44] Current Position: 20875
+[2025/05/15 17:09:44] Move stage to [ full back ]
+[2025/05/15 17:09:51] Current Position: -31
+[2025/05/15 17:09:51] position adjustment
+[2025/05/15 17:09:54] Current Position: 69
+[2025/05/15 17:09:57] Current Position: 7
+[2025/05/15 17:10:01] Current Position: 107
+[2025/05/15 17:10:04] Current Position: 7
+[2025/05/15 17:10:07] Current Position: 107
+[2025/05/15 17:10:10] Current Position: 7
+[2025/05/15 17:10:11] Set Integration time
+[2025/05/15 17:10:12] Current Position: 7
+[2025/05/15 17:10:19] Set Integration Time: 1000 ms
+[2025/05/15 17:10:27] Current Position: 22
+[2025/05/15 17:10:32] Current Position: 22
+[2025/05/15 17:10:32] -------------------------------------------
+[2025/05/15 17:10:33] Time axis: 146.77 fs
+[2025/05/15 17:10:33] Integration time: 1000 ms
+[2025/05/15 17:10:33] Max intensity: 1232.88
+[2025/05/15 17:10:33] -------------------------------------------
+[2025/05/15 17:10:51] Current Position: 22
+[2025/05/15 17:10:56] Current Position: 22
+[2025/05/15 17:10:56] -------------------------------------------
+[2025/05/15 17:10:56] Time axis: 146.77 fs
+[2025/05/15 17:10:56] Integration time: 1000 ms
+[2025/05/15 17:10:56] Max intensity: 1239.02
+[2025/05/15 17:10:56] -------------------------------------------
+[2025/05/15 17:11:02] Current Position: 22
+[2025/05/15 17:11:05] Set Integration Time: 5000 ms
+[2025/05/15 17:11:13] Current Position: 22
+[2025/05/15 17:11:13] -------------------------------------------
+[2025/05/15 17:11:13] Time axis: 146.77 fs
+[2025/05/15 17:11:13] Integration time: 5000 ms
+[2025/05/15 17:11:13] Max intensity: 1347.56
+[2025/05/15 17:11:13] -------------------------------------------
+[2025/05/15 17:16:20] Current Position: 172
+[2025/05/15 17:16:22] Set Integration Time: 6000 ms
+[2025/05/15 17:16:30] Current Position: 172
+[2025/05/15 17:16:30] -------------------------------------------
+[2025/05/15 17:16:30] Time axis: 1147.46 fs
+[2025/05/15 17:16:30] Integration time: 6000 ms
+[2025/05/15 17:16:30] Max intensity: 1378.28
+[2025/05/15 17:16:30] -------------------------------------------
+[2025/05/15 17:16:42] Current Position: 1172
+[2025/05/15 17:16:53] Current Position: 1172
+[2025/05/15 17:16:53] -------------------------------------------
+[2025/05/15 17:16:53] Time axis: 7818.74 fs
+[2025/05/15 17:16:53] Integration time: 6000 ms
+[2025/05/15 17:16:53] Max intensity: 1351.66
+[2025/05/15 17:16:53] -------------------------------------------
