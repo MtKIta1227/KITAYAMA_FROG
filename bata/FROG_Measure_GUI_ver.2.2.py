@@ -471,9 +471,12 @@ class MainWindow(QtWidgets.QMainWindow):
         self.csv_tab = CSVGraphPanel(self)
         tabs.addTab(self.measure_tab, "測定")
         tabs.addTab(self.csv_tab, "CSV可視化")
-        main_layout = QtWidgets.QVBoxLayout()
+
+        # QMainWindow には setLayout できない！→ QWidget を作ってsetCentralWidget
+        central_widget = QtWidgets.QWidget()
+        main_layout = QtWidgets.QVBoxLayout(central_widget)
         main_layout.addWidget(tabs)
-        self.setLayout(main_layout)
+        self.setCentralWidget(central_widget)
 
     def create_measure_tab(self):
         tab = QtWidgets.QWidget()
@@ -483,7 +486,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.usb4000_btn.clicked.connect(self.check_usb4000)
         dev_layout.addWidget(self.usb4000_btn)
         self.ds102_btn = QtWidgets.QPushButton("DS102接続確認")
-        self.ds102_btn.clicked.connect(self.check_ds102)
+        self.ds102_btn.clicked.connect(self.auto_connect_ds102)
         dev_layout.addWidget(self.ds102_btn)
         self.status_label = QtWidgets.QLabel("デバイス未接続")
         dev_layout.addWidget(self.status_label)
@@ -646,22 +649,28 @@ class MainWindow(QtWidgets.QMainWindow):
         except Exception as e:
             self.log(f"USB4000 エラー: {e}")
 
-    def check_ds102(self):
-        """SURUGA SEIKI DS102 シリアルポートを自動検出して接続します"""
-        vid = 0x0DFD
-        pid = 0x0002
-        port = find_device_port(device_name="DS102", manufacturer="SURUGA SEIKI", vid=vid, pid=pid)
-        if port:
+    def auto_connect_ds102(self):
+        found = False
+        for p in serial.tools.list_ports.comports():
             try:
-                self.ser = serial.Serial(port, baudrate=9600, timeout=1)
-                self.status_label.setText(f"DS102 接続: {port}")
-                self.log(f"DS102 ({port}) に接続しました")
-                self.update_position_label()
-                return
+                ser = serial.Serial(p.device, baudrate=9600, timeout=1)
+                # DS102専用の問い合わせコマンドを送信
+                ser.write(b"AXIs1:POS?\r")
+                resp = ser.readline().decode('utf-8').strip()
+                # DS102が応答する場合、数値や特有のフォーマットが返るはず
+                if resp and resp.lstrip('-').isdigit():
+                    self.ser = ser
+                    self.status_label.setText(f"DS102 接続: {p.device}")
+                    self.log(f"DS102 自動検出・接続成功: {p.device} (応答={resp})")
+                    self.update_position_label()
+                    found = True
+                    break
+                ser.close()
             except Exception as e:
-                self.log(f"DS102 シリアル接続失敗: {e}")
-        self.status_label.setText("DS102 未検出")
-        self.log("DS102 が見つかりません")
+                continue
+        if not found:
+            self.status_label.setText("DS102 未検出")
+            self.log("DS102を自動検出できませんでした。")
 
     def set_home_position(self):
         if not self.ser:

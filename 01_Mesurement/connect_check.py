@@ -21,7 +21,6 @@ def list_usb_devices():
     """system_profiler を呼び出して USB 機器を表示"""
     print("\n=== USB Devices ===\n")
     try:
-        # SPUSBDataType: USB 機器情報
         output = subprocess.check_output(
             ["system_profiler", "SPUSBDataType"],
             text=True,  # Python 3.7+
@@ -41,13 +40,15 @@ def list_serial_ports():
         print("シリアルポートが見つかりませんでした。")
     else:
         for port in ports:
-            print(f"{port.device}")
-            print(f"  Description: {port.description}")
-            print(f"  HWID:        {port.hwid}")
+            print(f"■ ポート名: {port.device}")
+            print(f"  Description:  {port.description}")
+            print(f"  HWID:         {port.hwid}")
             if port.manufacturer:
-                print(f"  Manufacturer:{port.manufacturer}")
+                print(f"  Manufacturer: {port.manufacturer}")
             if port.product:
-                print(f"  Product:     {port.product}")
+                print(f"  Product:      {port.product}")
+            if port.vid is not None and port.pid is not None:
+                print(f"  VID:PID:      {hex(port.vid)}:{hex(port.pid)}")
             print()
 
 
@@ -59,4 +60,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
