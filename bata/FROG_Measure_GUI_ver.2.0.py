@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-FROG_Measure_GUI (ver.2.1)
-
-2025-05-20
-SURUGA SEIKI DS102 を含むデバイス自動検出ロジックを追加し、
-VID/PID → Manufacturer → Description の優先度でシリアルポートを決定します。
-他のロジックは ver.2.0 と同一です。
-"""
-
 import sys
 import os
 import datetime
@@ -29,40 +19,6 @@ try:
     seabreeze_imported = True
 except Exception:
     seabreeze_imported = False
-
-
-def find_device_port(device_name: str | None = None, manufacturer: str | None = None, vid: int | None = None, pid: int | None = None):
-    """Detect the serial port corresponding to a USB device.
-
-    Priority order:
-        (1) Exact match on VID & PID
-        (2) Substring match on *manufacturer*
-        (3) Substring match on *description*
-    """
-    ports = serial.tools.list_ports.comports()
-
-    # 1. VID/PID
-    if vid is not None and pid is not None:
-        for p in ports:
-            if p.vid == vid and p.pid == pid:
-                return p.device
-
-    # 2. Manufacturer substring
-    if manufacturer:
-        m_lower = manufacturer.lower()
-        for p in ports:
-            if p.manufacturer and m_lower in p.manufacturer.lower():
-                return p.device
-
-    # 3. Description substring
-    if device_name:
-        d_lower = device_name.lower()
-        for p in ports:
-            if p.description and d_lower in p.description.lower():
-                return p.device
-
-    return None
-
 
 def log_to_file(logpath, message):
     now = datetime.datetime.now().strftime("%Y/%m/%d %H:%M:%S")
@@ -461,7 +417,7 @@ class CSVGraphPanel(QtWidgets.QWidget):
         except Exception as e:
             self.fwhm_label.setText("フィット失敗: " + str(e))
 
-class MainWindow(QtWidgets.QMainWindow):
+class FROG_GUI(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("FROG Measurement & CSV Analysis GUI")
@@ -647,19 +603,18 @@ class MainWindow(QtWidgets.QMainWindow):
             self.log(f"USB4000 エラー: {e}")
 
     def check_ds102(self):
-        """SURUGA SEIKI DS102 シリアルポートを自動検出して接続します"""
-        vid = 0x0DFD
-        pid = 0x0002
-        port = find_device_port(device_name="DS102", manufacturer="SURUGA SEIKI", vid=vid, pid=pid)
-        if port:
-            try:
-                self.ser = serial.Serial(port, baudrate=9600, timeout=1)
-                self.status_label.setText(f"DS102 接続: {port}")
-                self.log(f"DS102 ({port}) に接続しました")
-                self.update_position_label()
-                return
-            except Exception as e:
-                self.log(f"DS102 シリアル接続失敗: {e}")
+        device_name = "SURUGA SEIKI DS102 USB Serial Port"
+        ports = list(serial.tools.list_ports.comports())
+        for port in ports:
+            if device_name in port.description:
+                try:
+                    self.ser = serial.Serial(port.device, baudrate=9600, timeout=1)
+                    self.status_label.setText(f"DS102 接続: {port.device}")
+                    self.log(f"DS102 ({port.device}) に接続しました")
+                    self.update_position_label()
+                    return
+                except Exception as e:
+                    self.log(f"DS102 シリアル接続失敗: {e}")
         self.status_label.setText("DS102 未検出")
         self.log("DS102 が見つかりません")
 
@@ -804,6 +759,6 @@ class MainWindow(QtWidgets.QMainWindow):
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    window = MainWindow()
+    window = FROG_GUI()
     window.show()
     sys.exit(app.exec_())
